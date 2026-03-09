@@ -25,21 +25,20 @@ This separation improves maintainability and testability.
 TargetProductDetails
 │
 ├── App
-│ └── TargetProductDetailsApp.swift
+│ └── TargetProductDetailsApp.swift # App entry point
 │
 ├── Views
-│ ├── ContentView.swift
-│ └── ProductDetailView.swift
+│ ├── ContentView.swift # Main screen
+│ └── ProductDetailView.swift # Product detail UI
 │
 ├── ViewModels
-│ └── ProductDetailViewModel.swift
+│ └── ProductDetailViewModel.swift # Business logic
 │
 ├── Models
-│ └── Product.swift
+│ └── Product.swift # Data model
 │
 └── Tests
-└── TargetProductDetailsTests.swift
-
+└── TargetProductDetailsTests.swift # Unit tests
 ---
 
 ## Components
