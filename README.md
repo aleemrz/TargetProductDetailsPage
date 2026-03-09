@@ -22,23 +22,18 @@ This separation improves maintainability and testability.
 ---
 
 ## Project Structure
-TargetProductDetails
-│
-├── App
-│ └── TargetProductDetailsApp.swift # App entry point
-│
-├── Views
-│ ├── ContentView.swift # Main screen
-│ └── ProductDetailView.swift # Product detail UI
-│
-├── ViewModels
-│ └── ProductDetailViewModel.swift # Business logic
-│
-├── Models
-│ └── Product.swift # Data model
-│
-└── Tests
-└── TargetProductDetailsTests.swift # Unit tests
+- TargetProductDetails
+  - App
+    - TargetProductDetailsApp.swift
+  - Views
+    - ContentView.swift
+    - ProductDetailView.swift
+  - ViewModels
+    - ProductDetailViewModel.swift
+  - Models
+    - Product.swift
+  - Tests
+    - TargetProductDetailsTests.swift
 ---
 
 ## Components
